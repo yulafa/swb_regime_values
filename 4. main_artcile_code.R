@@ -419,13 +419,15 @@ anova(m11_ev, m12_ev) # +
 ##### Model comparison ######
 
 # Models without control variables
-screenreg(list(m4_FH, m4_polyarchy, m4_libdem, m4_partipdem, m4_delibdem, m4_egaldem, m4_ev)) 
+screenreg(list(m4_FH, m4_partipdem, m4_ev)) 
 
 # Models with basic control variables
-screenreg(list(m8_FH, m8_polyarchy, m8_libdem, m8_partipdem, m8_delibdem, m8_egaldem, m8_ev)) 
+screenreg(list(m8_FH, m8_partipdem, m8_ev)) 
 
 # Models with rigorous control variables
-screenreg(list(m12_FH, m12_polyarchy, m12_libdem, m12_partipdem, m12_delibdem, m12_egaldem, m12_ev)) 
+screenreg(list(m12_FH, m12_partipdem, m12_ev)) 
+
+
 
 ##### Visualization models for Participatory Democracy #####
 # No control variables
