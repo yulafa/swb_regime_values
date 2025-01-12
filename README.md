@@ -1,5 +1,4 @@
-# The Effect of Political Regime on the Association of Values
-with Subjective Well-Being
+# The Effect of Political Regime on the Association of Values with Subjective Well-Being
 
 Data code and instructions to reproduce the findings for the paper "The Effect of Political Regime on the Association of Values
 with Subjective Well-Being".
